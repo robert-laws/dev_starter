@@ -7,6 +7,7 @@ var config = {
     },
     output: {
         path: __dirname + '/dist',
+        publicPath: '/dist/',
         filename: 'bundle.js'
     },
     devServer: {
